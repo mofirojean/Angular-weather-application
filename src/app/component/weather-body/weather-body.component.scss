@@ -98,3 +98,24 @@ span {
     align-items: center;
     color: #fff;
 }
+
+.search {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.search input {
+    background-color: rgba(225,225,225,0.1);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 1.3em;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.search input::placeholder {
+    font-size: 1.2rem;
+}
